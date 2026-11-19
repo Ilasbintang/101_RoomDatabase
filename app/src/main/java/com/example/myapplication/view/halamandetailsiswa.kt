@@ -192,3 +192,11 @@ private fun BarisDetailData(
     }
 }
 
+@Composable
+private fun DeleteConfirmationDialog(
+    onDeleteConfirm: () -> Unit,
+    onDeleteCancel: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+
+}
